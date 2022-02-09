@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портфолио</title>
+    <title>Студия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body class="body">
-<!--Шапка сторинки-->
-<header class="header">
-    <nav class="navigation">
-        <a href="/" class="logo-img">
-            WebStudio
-        </a>
-        <ul class="menu-list list">
-            <li><a class="menu-list-link" href="./index.html">Студия</a></li>
-            <li><a class="menu-list-link" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="menu-list-link" href="">Контакты</a></li>
+    <!--Шапка сторінки-->
+    <header class="header">
+        <nav class="navigation">
+            <a href="/" class="logo-img link">
+                Web<span class="header-logo">Studio</span>
+            </a>
+            <ul class="menu-list list">
+                <li><a class="menu-list-link link" href="./index.html">Студия</a></li>
+                <li><a class="menu-list-link link" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="menu-list-link link" href="">Контакты</a></li>
+            </ul>
+        </nav>
+        <ul class="contacts-list list">
+            <li><a class="contacts-list-number link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="contacts-list-mail link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-    </nav>
-    <ul class="contacts-list list">
-        <li><a class="contacts-list-number link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts-list-mail link" href="tel:+380961111111">+38 096 111 11 11                11</a></li>
-    </ul>
-</header>
- <!--Основна частина сторінки-->
- <main class="main">
-     <section class="filters">
-         <h1 class="filter-title">Фильтр для просмотра работ</h1>
-         <ul class="filter-list list">
-             <li class="filter-list-item"><button type="button" class="button">Все</button></li>
-             <li class="filter-list-item"><button type="button" class="button">Веб-сайты</button></li>
-             <li class="filter-list-item"><button type="button" class="button">Приложения</button></li>
-             <li class="filter-list-item"><button type="button" class="button">Дизайн</button></li>
-             <li class="filter-list-item"><button type="button" class="button">Маркетинг</button></li>
-         </ul>
-     </section>
-     <section class="gallery-projects">
-         <h2 class="gallery-projects-title">Примеры работ</h2>
-         <ul class="gallery-projects-list list">
+    </header>
+    <!--Основна частина сторінки-->
+<main class="main">
+    <section class="filters">
+        <h1 class="filter-title">Фильтр для просмотра работ</h1>
+        <ul class="filter-list list">
+            <li class="filter-list-item"><button type="button" class="button">Все</button></li>
+            <li class="filter-list-item"><button type="button" class="button">Веб-сайты</button></li>
+            <li class="filter-list-item"><button type="button" class="button">Приложения</button></li>
+            <li class="filter-list-item"><button type="button" class="button">Дизайн</button></li>
+            <li class="filter-list-item"><button type="button" class="button">Маркетинг</button></li>
+        </ul>
+        <ul class="gallery-projects-list list">
             <li class="gallery-projects-item">
                 <img src="./images/examples-of-works1.jpg" alt="Примеры работ" width="370">
                 <h3 class="gallery-projects-item-title">Технокряк</h3>
@@ -85,19 +89,22 @@
                 <h3 class="gallery-projects-item-title">Growing Business</h3>
                 <p class="gallery-projects-text">Приложение</p>
             </li>
-         </ul>
-     </section>
- </main>
- <!--Підвал сторінки-->
-<footer class="contacts">
-    <a class="logo-img" href="/">WebStudio</a>
-    <address class="contacts-address">
-        г. Киев, пр-т Леси Украинки, 26
-    </address>
-    <address class="contacts-address-link ">
-        <a class="link" href="mailto:info@example.com">info@example.com</a>
-        <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
-    </address>
-</footer>
+        </ul>
+    </section>
+</main>
+    <!--Підвал сторінки-->
+    <footer class="contacts">
+        <a class="footer-img link" href="/">Web
+            <span class="footer-logo">Studio</span>
+        </a>
+        <address class="contacts-address">
+            г. Киев, пр-т Леси Украинки, 26
+        </address>
+        <address class="contacts-address-link ">
+            <a class="link" href="mailto:info@example.com">info@example.com</a>
+            <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+        </address>
+    </footer>
 </body>
+
 </html>
