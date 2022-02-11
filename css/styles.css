@@ -77,12 +77,18 @@
 }
 /* кнопка */
 .btn {
+  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   cursor: pointer;
   color: var(--white-color);
   background-color: var(--blu-color);
+}
+
+.hiden-features-title {
+  position: fixed;
+  transform: scale(0);
 }
 
 .features-title {
